@@ -1,0 +1,31 @@
+.white {
+  background-color: white;
+}
+
+.header {
+  @apply w-full h-16;
+  @apply top-0 relative;
+  @apply flex justify-center items-center;
+  @apply gap-x-1;
+}
+
+.logo_container {
+  @apply w-3/12 h-full;
+  @apply flex justify-start items-center;
+  @apply pl-10;
+  @apply white text-xl;
+  color: #d20866;
+}
+
+.search_bar {
+  @apply w-5/12 h-full;
+  @apply flex justify-center items-center;
+  @apply white;
+}
+
+.nav_toggle {
+  @apply w-4/12 h-full;
+  @apply flex justify-end items-center;
+  @apply white;
+  @apply pr-5;
+}
